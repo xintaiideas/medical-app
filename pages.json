@@ -1,0 +1,238 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "疗养管理"
+			}
+		}, {
+			"path": "pages/login/admin",
+			"style": {
+				"navigationBarTitleText": "登录模板",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/scenery/scenery",
+			"style": {
+				"navigationBarTitleText": "疗养风光"
+			}
+		},
+		{
+			"path": "pages/scenery/sceneryOne",
+			"style": {
+				"navigationBarTitleText": "疗养风光"
+			}
+		},
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+	    {
+			"path": "pages/journey/journey",
+			"style": {
+				"navigationBarTitleText": "添加疗养行程",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+                            "fontSrc": "/static/yticon.ttf",
+                            "text": "\ue605",
+                            "fontSize": "18",
+                            "color": "#303133",
+                            "background": "rgba(0,0,0,0)",
+                            "float":"left"
+                            },
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "完成",
+								"fontSize": "18",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/journey/journeyAdd",
+			"style": {
+				"navigationBarTitleText": "选择随员",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+				            "fontSrc": "/static/yticon.ttf",
+				            "text": "\ue605",
+				            "fontSize": "18",
+				            "color": "#303133",
+				            "background": "rgba(0,0,0,0)",
+				            "float":"left"
+				            },
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "完成",
+								"fontSize": "18",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/retinue/retinue",
+			"style": {
+				"navigationBarTitleText": "添加随员",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},{
+			"path": "pages/retinue/retinueAdd",
+			"style": {
+				"navigationBarTitleText": "添加随员",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+				            "fontSrc": "/static/yticon.ttf",
+				            "text": "\ue605",
+				            "fontSize": "18",
+				            "color": "#303133",
+				            "background": "rgba(0,0,0,0)",
+				            "float":"left"
+				            },
+							{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "完成",
+								"fontSize": "18",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		},{
+			"path": "pages/recuperator/recuperator",
+			"style": {
+				"navigationBarTitleText": "添加疗养员",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+				            "fontSrc": "/static/yticon.ttf",
+				            "text": "\ue605",
+				            "fontSize": "18",
+				            "color": "#303133",
+				            "background": "rgba(0,0,0,0)",
+				            "float":"left"
+				            }
+						]
+					}
+				}
+			}
+		}
+	],
+	//    "tabBar": {
+	//    "color": "#7a7e83",
+	//    "selectedColor": "#0faeff",
+	//    "backgroundColor": "#ffffff",
+	//    "list": [{
+	//        "pagePath": "pages/main/main",
+	//        "text": "首页",
+	//        "iconPath": "static/img/home.png",
+	//        "selectedIconPath": "static/img/homeHL.png"
+	//    }, {
+	//        "pagePath": "pages/user/user",
+	//        "text": "我的",
+	//        "iconPath": "static/img/user.png",
+	//        "selectedIconPath": "static/img/userHL.png"
+	//    }]
+	//},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#007aff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/main/main",
+				"iconPath": "static/img/tab-home.png",
+				"selectedIconPath": "static/img/tab-home-current.png",
+				"text": "疗养管理"
+			},
+			{
+				"pagePath": "pages/scenery/scenery",
+				"iconPath": "static/img/tab-cate.png",
+				"selectedIconPath": "static/img/tab-cate-current.png",
+				"text": "活动管理"
+			},
+			{
+				"pagePath": "pages/scenery/sceneryOne",
+				"iconPath": "static/img/tab-cart.png",
+				"selectedIconPath": "static/img/tab-cart-current.png",
+				"text": "报警管理"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/img/tab-my.png",
+				"selectedIconPath": "static/img/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"titleNView": {
+			"backgroundColor": "#fff", //导航栏背景色
+			"titleColor": "#000000", //标题颜色
+			"titleSize": "18px", //标题字体大小
+			"titleFontWeight": "lighter"
+		},
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	}
+}
